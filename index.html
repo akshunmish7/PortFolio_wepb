@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+    box-sizing: border-box;
+}
+.background{
+    background-image: url(cool-background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 150px;
+    padding-left: 40px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+header h1{
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: left;
+}
+.navbar{
+    text-align: right;
+    margin: 3px;
+    border: 1px;
+}
+.info,.about,.ask{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    font-size: x-large;
+    border-radius: 20px;
+}
+.ask:hover{
+    background-color: black;
+    padding: 10px;
+    color:white;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 20px;
+}
+.about:hover{
+    background-color:black;
+    padding: 10px;
+    color:white;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 20px;
+}
+.info:hover{
+    background-color: black;
+    padding: 10px;
+    color:white;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 20px;
+}
+hr{
+    width: 100%;
+    box-shadow: 20px;
+}
+.img4{
+    width: 600px;
+    border-radius: 10px;
+    background-blend-mode: lighten;
+}
+.basketball{
+    font-size: 60px;
+    float: right;
+}
+.name_bio{
+    width: 50%;
+    text-align: left;
+    border-radius: 50px;
+}
+.batch{
+    padding-top: 30px;
+    width: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    float: right;
+}
+.photo{
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 100%;
+    padding-left: 10px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.text{
+   
+    text-align: center;
+    text-align: calc();
+}
+.hello{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+}
+.text1{
+    color: black;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-align: justify;
+    float: left;
+}
+h2{
+    font-weight: 600;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+span{
+    color: red;
+}
+.formtext{
+    padding-right: 40px;
+    height: 800px;
+    width: 100%;
+}
+form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 500px;
+}
+.form_text{
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 5px 20px 15px 20px;
+    border-radius: 4px;
+    float: right;
+}
+input[type="text"],
+input[type="email"],
+select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+.main_heading{
+    text-align: center;
+    color: black;
+}
+input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    width: 80;
+    height: 30px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    color: orangered;
+    cursor: grab;
+}
+footer{
+    background-color: #333;
+    overflow: hidden;
+}
+.footerline{
+    font-size: x-large;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.insta,.facebook,.youtube,.linkedin{
+    border-radius: 100px;
+    width: 10%;
+    padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="background" >
+    <header>
+        <h1 id="portfolio">PortFolio</h1>
+        <div class="navbar">
+            <a class="info" href="#">Info</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="about" href="#">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="ask" href="#" >Ask Ques</a>&nbsp;&nbsp;
+        </div>
+    </header>
+    <h2>Info</h2>
+    <p class="basketball">&#9977;</p>
+    <section class="name_bio">
+        <img class="photo" src="Screenshot (242).png" alt="This is My photo">
+        <p class="batch"> Akshun Mishra <br>IIT BHU <br>Chemical Engineering</p>
+    </section>
+    <h2>About</h2>
+    <p class="hello">
+        Hey! I am Akshun Mishra.
+
+Having being born-raised-and-transferred in a defence family, attending a total of 7 schools over 6 cities - all in different parts (often far from the big cities) of the country with rich, disparate cultures has groomed me into being able to adapt with and welcome change with utmost enthusiasm. The cultures and people I experienced growing up allow me to approach any problem with multiple, often very unique standpoints.
+
+Stagnancy repels me and hence I try my hand at almost all opportunities that I come across, and once I find something worth investing my time into, I get to it with unconditional dedication and focus - either I crack the challenge, or challenge me.
+    </p>
+    <h2>Ask Ques</h2>
+    <section class="formtext">
+        <p class="text1">
+        Ask your all college, counselling &
+        career-related doubts <br><br><br><br><br><br><br><br><br>
+        <!--<img class="img4" src="cb1.png" alt="" style="position: relative; left: 0px; bottom: 200px;">-->
+        <video class="img4" src="welcome.mp4" autoplay muted loop style="position: relative; bottom: 200px;"></video>
+        </p>
+    <div class="form_text">
+        <form action="">
+            <h1 class="main_heading">Get In Touch &#128515;</h1>
+            <h4 class="small">The Fields marked with <span>*</span> are required</h4>
+            <p>Name: <span>*</span><input placeholder="Enter Your Name" type="text" name="name " required></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    Male <input type="radio" name="gender" id="Male">
+                    Female <input type="radio" name="gender" id="Female">
+                </p>
+            </fieldset>
+            <p>Email: <span>*</span><input type="email" required placeholder="abc@gmail.com"></p>
+            <p>Country: 
+                <select name="country" id="country">
+                    <option value="">--Choose your Country--</option>
+                    <option value="India">India</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>Doubt: <span>*</span> <textarea name="doubt" id="doubt" cols="30" rows="10" placeholder="Enter Your Doubt Here"></textarea></p>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+</div>
+<footer>
+    <p class="footerline">Follow Me On:</p>
+    <a href="https://www.instagram.com/akshun_07/" target="_blank"><img class="insta" src="Screenshot (300).png" alt=""></a>
+    <a href="#"><img class="facebook" src="facebook (2).jpg" alt=""></a>
+    <a href="#"><img class="youtube" src="youtube.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/akshun-mishra-777713227/" target="_blank"><img class="linkedin" src="Screenshot (301).png" alt=""></a>
+</footer>
+</body>
+</html>
